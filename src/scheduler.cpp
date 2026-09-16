@@ -24,7 +24,7 @@ void schedule_ASAP_basic(const std::vector<DependencyAnalysisTableEntry>& analys
     std::vector<int> bb0_ids;
     std::vector<int> bb1_ids;
     std::vector<int> bb2_ids;
-    // this is a vector of boolean of lenght = instr count and that initially is set to false
+    // this is a vector of boolean of length = instr count and that initially is set to false
     std::vector<bool> is_bb1(instruction_count, false); // To quickly check if an instruction belongs to BB1
 
     // in this block we characterize and organize the instructions based on the basic block they belong to and we fill the kind_by_id vector
@@ -262,7 +262,7 @@ void schedule_ASAP_advanced(const std::vector<DependencyAnalysisTableEntry>& ana
     std::vector<int> bb2_ids;
     std::vector<bool> is_bb1(instruction_count, false);
 
-    // the for iterates over the lenght of the analysis table
+    // the for iterates over the length of the analysis table
     for (int analysis_index = 0; analysis_index < static_cast<int>(analysis_table.size()); ++analysis_index) {
         
         const DependencyAnalysisTableEntry& entry = analysis_table[analysis_index];
