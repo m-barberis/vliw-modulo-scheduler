@@ -25,6 +25,6 @@ C++17.
 
 ---
 
-EPFL CS-470 Advanced Computer Architecture, two-person project with Matteo Barberis. The
+EPFL CS-470 Advanced Computer Architecture, two-person project with Federico Vassallo. The
 test set, JSON I/O format and build environment were provided by the course; the scheduler
 is ours.
